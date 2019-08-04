@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PFD: Fire Department Portal</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="fdStyles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+</head>
+<body>
+	<nav>
+		<ul>
+			<button><il>Username</il></button>
+			<button type="sumbit" name="logout"><il>Logout</il></button>
+		</ul>
+	</nav>
+	<div>
+		<img src="images/fdLogoBlackBackground.png" height="150" width="150">
+		<h2>FD Portal </h2>
+		<p>"Where buddies look after each other."</p>
+	</div>
+	<div class="mainBody">
+		<h4>Engine Checkist</h4>
+		<a href="newEngineChecklist.html">New Engine Checklist</a><br>
+		<a href="#">Continue an existing Engine Checklist</a>		
+		<h4>Ladder Checkist</h4>
+		<a href="#">New Ladder Checklist</a><br>
+		<a href="#">Continue an existing Ladder Checklist</a>
+		<h4>Unit Checkist</h4>
+		<a href="#">New Unit Checklist</a><br>
+		<a href="#">Continue an existing Unit Checklist</a>
+		<h4>Medical Bag Checkist</h4>
+		<a href="#">New Medical Bag Checklist</a><br>
+		<a href="#">Continue an existing Medical Bag Checklist</a>
+		<h4>Check history</h4>
+		<form name="checkListSearch" method="POST" action="#">
+			<label name="checkList">Checklist Date:</label>
+			<input type="date" name="checkList">
+			<button type="submit" name="submit">Submit</button>
+		</form>
+	</div>
+
+</body>
+</html>
