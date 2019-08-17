@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FD Portal - Start Engine</title>
+</head>
+<body>
+  <nav>
+    <ul>
+      <button><il>Username</il></button>
+      <button type="sumbit" name="logout"><il>Logout</il></button>
+    </ul>
+  </nav>
+  <div class="header">
+    <div class="logo">
+      <img src="images/fdLogoBlackBackground.png" height="150" width="150">
+    </div>
+    <div class="quote">
+      <h2>FD Portal </h2>
+      <p>I'm coming buddy!</p>
+    </div>
+  </div>
+  <div class="main">
+    <form action="">
+      <table>
+        <!-- look to see how to make a form with a table or equilent and only send the "low" or needs attention in the form. -->
+        <tr>
+          <th>Start Engine</th>
+        </tr>
+        <tr>
+          <td>Inside Radio:</td>
+          <td><input type="radio" name="inside_radio">Works <input type="radio" name="inside_radio">Does not work</td>
+        </tr>
+        <tr>
+          <td>Outside Radio:</td>
+          <td><input type="radio" name="outside_radio">Works<input type="radio" name="outside_radio">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>Gauges/Indicators:</td>
+          <td><input type="radio" name="gauges_indicators">Works<input type="radio" name="gauges_indicators">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>Headlights:</td>
+          <td><input type="radio" name="headlights">Works<input type="radio" name="headlights">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>High Beams:</td>
+          <td><input type="radio" name="highbeams">Works<input type="radio" name="highbeams">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>Running Lights:</td>
+          <td><input type="radio" name=running_lights>Works<input type="radio" name="running_lights">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>Turn Signals:</td>
+          <td><input type="radio" name="turn_signal">Works<input type="radio" name="turn_signal">Does not work</td>
+        </tr>
+        <tr>
+          <td>Backup Lights:</td>
+          <td><input type="radio" name="backup_light">Works<input type="radio" name="backup_light">Does not work</td>
+        </tr>
+        <tr>
+          <td>Backup Alarm:</td>
+          <td><input type="radio" name="backup_alarm">Works<input type="radio" name="backup_alarm">Does not work</td>
+        </tr>
+        <tr>
+          <td>Warning Lights:</td>
+          <td><input type="radio" name="warning_light">Works<input type="radio" name="warning_light">Doesn't work</td>
+        </tr>
+        <tr>
+          <td>Light Bar:</td>
+          <td><input type="radio" name="light_bar">Works<input type="radio" name="light_bar">Does not work</td>  
+        </tr>
+        <tr>
+          <td>Scene Lights:</td>
+          <td><input type="radio" name="scene_light">Works<input type="radio" name="scene_light">Does not work</td>
+        </tr>
+        <tr>
+          <td>Siren:</td>
+          <td><input type="radio" name="siren">Works<input type="radio" name="siren">Does not work</td>
+        </tr>
+        <tr>
+          <td>Q Siren:</td>
+          <td><input type="radio" name="q_siren">Works<input type="radio" name="q_siren">Does not work<input type="radio" name="">N/A</td>
+        </tr>
+        <tr>
+          <td>Air Horn:</td>
+          <td><input type="radio" name="air_horn">Works<input type="radio" name="air_horn">Does not work</td>
+        </tr>      
+        <tr>
+          <td>PTO Transmission:</td>
+          <td><input type="radio" name="pto_transmission">Works<input type="radio" name="pto_transmission">Does not work</td>
+        </tr>
+        <tr>
+          <td>Transmission Fluid:</td>
+          <td><input type="radio" name="transmission_fluid">OK<input type="radio" name="transmission_fluid">Low</td>
+        </tr>
+      </table>
+      <br>
+      <label for="comments">Comments:</label>
+      <br>
+      <textarea name="comments"></textarea>
+      <br>
+      <input type="checkbox" name="complete" value="true" required="">Is this section complete?
+      <br>
+      <button type="submit" name="submit">Sumbit</button>
+      <button type="button" name="cancel">Cancel</button>
+    </form>
+  </div>
+  <script type="text/javascript"></script>
+</body>
+</html>
