@@ -12,17 +12,19 @@
 	<img src="images/fdLogoBlackBackground.png" height="250px" width="250">
 	<h1>FD Portal</h1>
 	<p>I got your back, Buddy!</p>
-	<form method="POST" action="#">
+	<form method="POST" action="#" onsubmit="return validateLoginForm()">
 
-		<input type="text" name="userName" id="userName" placeholder="Username">
+		<input type="text" name="username" id="username" placeholder="Username">
 		<br>
-		<input type="password" name="password" placeholder="Password">
+		<input type="password" name="password" id="password" placeholder="Password">
 		<br>
 		<input type="submit" name="submit">
 		<br>
 
 	</form>
 </div>
+
+<script src="dailyCheck.js"></script>
 
 </body>
 </html>
